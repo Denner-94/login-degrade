@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/24a9a552ee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <section id="inicial">
+        <form action="cadastro.php" method="post" autocomplete="off" >
+            <div class="formulario">
+                <i class="fa-solid fa-user"></i>
+                <input type="email" name="email" id="iemail" placeholder="E-mail" required>
+                <label for="iemail">E-mail</label>
+            </div>
+            <div class="formulario">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="senha" id="isenha" placeholder="Senha" required>
+                <label for="isenha">Senha</label>
+            </div>
+            <input type="submit" value="LOGIN">
+            <div class="final">
+                <input type="checkbox" name="marcar" id="imarcar">
+                <label for="imarcar">Lembrar-me</label>
+            </div>
+            <a href="#">Esqueci a Senha</a>
+        </form>
+    </section>
+</body>
+</html>
