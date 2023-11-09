@@ -9,6 +9,11 @@
 </head>
 <body>
     <section id="inicial">
+        <h1 class="titulo">Faça login da sua Conta</h1>
+        <!--<a href="#">
+            <i class="fa-brands fa-google"></i>
+            <p>google</p>
+        </a>-->
         <form action="cadastro.php" method="post" autocomplete="off" >
             <div class="formulario">
                 <i class="fa-solid fa-user"></i>
@@ -21,10 +26,8 @@
                 <label for="isenha">Senha</label>
             </div>
             <input type="submit" value="LOGIN">
-            <div class="final">
-                <input type="checkbox" name="marcar" id="imarcar">
-                <label for="imarcar">Lembrar-me</label>
-            </div>
+            <input class="marcar" type="checkbox" name="marcar" id="imarcar">
+            <label for="imarcar">Lembrar-me</label>
             <a href="#">Esqueci a Senha</a>
         </form>
     </section>

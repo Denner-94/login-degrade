@@ -6,6 +6,7 @@
     --cor2: #833066;
     --cor3: #0f2354;
     --cor4: #0e0f2a;
+    --texto:'Roboto Condensed', sans-serif;
 
 }
 
@@ -36,11 +37,21 @@ section#inicial{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+section#inicial > .titulo{
+    padding: 5px;
+    margin-top: 50px;
+    color: var(--cor4);
+    font-family: var(--texto);
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+}
 section#inicial > form{
     position: absolute;
     width: 90vw;
+    margin-top: px;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50%, -50%);
 }
 div.formulario{
@@ -66,6 +77,7 @@ div.formulario > input::placeholder{
 }
 div.formulario > input:focus{
     outline: none;
+    color: #f0f8ff;
 
 }
 div.formulario > label{
@@ -73,16 +85,17 @@ div.formulario > label{
 }
 form > input[type=submit]{
     display: block;
-    margin: 10px 0px;
+    margin-top: 20px;
     border: 0;
     border-radius: 10px;
     padding: 5px;
     width: 100%;
     font-size: 1.5em;
 }
-form div.final{
+input.marcar, label{
     font-size: 1em;
     color: aliceblue;
+    margin-top: 10px;
 }
 form > a{
     display: block;
