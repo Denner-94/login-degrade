@@ -8,32 +8,30 @@
     <title>Login</title>
 </head>
 <body>
-    <section id="inicial">
+    <section id="principal">
         <h1 class="titulo">Faça login da sua Conta</h1>
         <!--<a href="#">
             <i class="fa-brands fa-google"></i>
             <p>google</p>
         </a>-->
-        <div class="formulario-pai">
             <form action="cadastro.php" method="post" autocomplete="off" >
-                <div class="formulario">
+                <div class="campo">
                     <i class="fa-solid fa-user"></i>
                     <input type="email" name="email" id="iemail" placeholder="E-mail" required>
                     <label for="iemail">E-mail</label>
                 </div>
-                <div class="formulario">
+                <div class="campo">
                     <i class="fa-solid fa-lock"></i>
                     <input type="password" name="senha" id="isenha" placeholder="Senha" required>
                     <label for="isenha">Senha</label>
                 </div>
                 <input type="submit" value="LOGIN">
                 <div class="final">
-                    <input class="marcar" type="checkbox" name="marcar" id="imarcar">
-                    <label for="imarcar">Lembrar-me</label>
-                    <a href="#">Esqueci a Senha</a>
+                    <div><input class="marcar" type="checkbox" name="marcar" id="imarcar">
+                    <label for="imarcar">Lembrar-me</label></div>
+                    <div class="redefinir"><a href="#">Esqueci a Senha</a></div>
                 </div>
             </form>
-        </div>
     </section>
 </body>
 </html>
