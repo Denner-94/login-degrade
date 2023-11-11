@@ -8,30 +8,44 @@
     <title>Login</title>
 </head>
 <body>
-    <section id="principal">
-        <h1 class="titulo">Faça login da sua Conta</h1>
-        <!--<a href="#">
-            <i class="fa-brands fa-google"></i>
-            <p>google</p>
-        </a>-->
-            <form action="cadastro.php" method="post" autocomplete="off" >
-                <div class="campo">
-                    <i class="fa-solid fa-user"></i>
-                    <input type="email" name="email" id="iemail" placeholder="E-mail" required>
-                    <label for="iemail">E-mail</label>
-                </div>
-                <div class="campo">
-                    <i class="fa-solid fa-lock"></i>
-                    <input type="password" name="senha" id="isenha" placeholder="Senha" required>
-                    <label for="isenha">Senha</label>
-                </div>
-                <input type="submit" value="LOGIN">
-                <div class="final">
-                    <div><input class="marcar" type="checkbox" name="marcar" id="imarcar">
-                    <label for="imarcar">Lembrar-me</label></div>
-                    <div class="redefinir"><a href="#">Esqueci a Senha</a></div>
-                </div>
-            </form>
-    </section>
+    <main id="principal">
+        <section id="container">
+            <section id="titulo">
+                <h1>Login</h1>
+                <p>Bem vindo de volta! Selecione a conta para entrar</p>
+            </section>
+            <section id="redes">
+                <a href="">
+                    <i class="fa-brands fa-google"></i>
+                    <p class="botao">Google</p>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <p class="botao">Facebook</p>
+                </a>
+            </section>
+            
+                <section id="formulario">
+                    <form action="cadastro.php" method="post" autocomplete="off" >
+                        <div class="campo">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="email" name="email" id="iemail" placeholder="E-mail" required>
+                            <label for="iemail">E-mail</label>
+                        </div>
+                        <div class="campo">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" name="senha" id="isenha" placeholder="Senha" required>
+                            <label for="isenha">Senha</label>
+                        </div>
+                        <input type="submit" value="LOGIN">
+                        <div class="final">
+                            <div><input class="marcar" type="checkbox" name="marcar" id="imarcar">
+                            <label for="imarcar">Lembrar-me</label></div>
+                            <div class="redefinir"><a href="#">Esqueci a Senha</a></div>
+                        </div>
+                    </form>
+                </section>
+        </section>
+        </main>
 </body>
 </html>
