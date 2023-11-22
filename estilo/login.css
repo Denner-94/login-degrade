@@ -19,34 +19,30 @@
     font-size: 100%; 
 }
 html, body{
-    position: relative;
     background-image: linear-gradient(to bottom,#ffa99a,#e4715c,#833066, #0f2354, #0e0f2a);
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;
 }
 /*==formulario==*/
-
 main#principal{
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    position: absolute;
     width: 100vw;
     height: 100vh;
-    
 
 }
 section#container{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    width: 300px ;
-    height: 100vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 500px;
+    transform: translate(-50%, -50%);
 }
+
     
 
 section#titulo{
-    margin-top: 20px;
     color: #f0f8ff;
 }
 section#titulo > h1{
@@ -67,10 +63,12 @@ section#titulo > p{
 }
 
 section#redes{
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0px 20px;
+    gap: 30px;
+    justify-content: center;
+    margin: 50px 20px;
 }
 section#redes a{
     display: flex;
@@ -147,6 +145,12 @@ div.redefinir > a{
 
 div.redefinir > a:hover{
     text-decoration: underline;
+    
+}
+@media screen and (min-width: 768px){
+    {
+        width: 100vw;
+    }
     
 }
 
