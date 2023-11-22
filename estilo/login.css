@@ -29,15 +29,21 @@ main#principal{
     position: absolute;
     width: 100vw;
     height: 100vh;
+    
+   
+    
 
 }
 section#container{
     position: relative;
+    border: 1px solid white;
+    width: 90vw;
     left: 50%;
     top: 50%;
-    width: 500px;
-    height: 500px;
     transform: translate(-50%, -50%);
+    
+   
+   
 }
 
     
@@ -62,8 +68,7 @@ section#titulo > p{
     text-align: center;
 }
 
-section#redes{
-
+/*section#redes{
     display: flex;
     flex-direction: row;
     gap: 30px;
