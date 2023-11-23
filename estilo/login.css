@@ -22,7 +22,6 @@ body{
     width: 100vw;
     height: 100vh;
 }
-/*==formulario==*/
 main#principal{
     background-image: linear-gradient(to bottom,#ffa99a,#e4715c,#833066, #0f2354, #0e0f2a);
     background-attachment: fixed;
@@ -32,9 +31,9 @@ main#principal{
 }
 section#container{
     position: relative;
-    display: block;
-    border: 1px solid white;
-    width: 320px;
+    border: 0.5px solid #f0f8ff;
+    padding: 20px;
+    width: 300px;
     height: 500px;
     left: 50%;
     top: 50%;
@@ -56,12 +55,12 @@ section#container p{
     font-family: var(--texto);
     font-size: 1.2em;
     font-weight: normal;
-    text-align: center;
+    text-align: center;  
 }
 
 section#redes{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 20px auto;
     
 }
@@ -84,36 +83,12 @@ section#redes div > a{
 section#redes a > i{
     color: #0e0f2a;
     font-size: 1.2em;
-    
-    
-
 }
 section#redes a > p{
     font-size: 1em;
     color: #0e0f2a;
-
-
 }
-/*section#redes a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    gap: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #f0f8ff;
-    box-shadow: 2px 2px 5px rgba(56, 56, 56, 0.502);
-    width: 120px;
-    color: #0e0f2a;
-}
-section#redes a > i{
-    font-size: 1.2em;
-}*/
 
-section#formulario{
-   margin: 0px 20px;
-   height: 90vw;
-}
 form > div.campo{
     padding: 20px 0px;
     font-size: 1.1em;
